@@ -1,4 +1,3 @@
-
 .LoginComponent {
     width: 100%;
     height: 100vh;
@@ -9,42 +8,51 @@
     height: 100vh;
     margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
-.login-one {
+.Login-one {
+    width: 80%;
+    padding: 2rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+}
+
+.login-one-one {
     width: 100%;
-    padding: 6rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login-one h1 {
+.login-one-one h1 {
     font-size: 2.4rem;
     font-weight: 700;
     color: #3751FE;
 }
 
-.login-one span {
+.login-one-one span {
     font-size: 4rem;
     color: #000;
     padding: .4rem .5rem;
 }
 
-.login-two {
+.login-one-two {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login-two p {
+.login-one-two p {
     font-size: 1.4rem;
     color: #00000099;
 }
 
-.login-three {
+.login-one-three {
     width: 100%;
     display: flex;
     align-items: center;
@@ -52,14 +60,21 @@
     padding: 2rem 0rem 0rem 0rem;
 }
 
-.login-three input {
+.login-one-three input {
     width: 60%;
     padding: 1rem;
     border: 1px solid #00000033;
     border-radius: 1px;
+    position: relative;
+    transition: all 0.2s ease;
 }
 
-.login-four {
+.login-one-three input:focus {
+    outline: none;
+    border-left: 4px solid #3751FE;
+}
+
+.login-one-four {
     width: 100%;
     display: flex;
     align-items: center;
@@ -67,34 +82,45 @@
     padding: 0rem 0rem 1rem 0rem;
 }
 
-.login-four input {
+.login-one-four input {
     width: 60%;
     padding: 1rem;
     border: 1px solid #00000033;
     border-radius: 1px;
+    position: relative;
+    transition: all 0.2s ease;
 }
 
-.login-five {
+.login-one-four input:focus {
+    outline: none;
+    border-left: 4px solid #3751FE;
+}
+
+.login-one-five {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.login-five a {
+.login-one-five a {
     width: 60%;
 }
 
+.login-one-five a:hover {
+    color: #3751FE;
+    text-decoration: underline;
+}
 
-.login-six {
+.login-one-six {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
-.login-six-in {
+.login-one-six-in {
     width: 60%;
     display: flex;
     align-items: center;
@@ -104,11 +130,17 @@
 
 .LoginComponent-button {
     padding: .5rem 1.4rem;
-    border: none;
+    border: 1px solid #3751FE;
     border-radius: 1px;
     background-color: #3751FE;
     color: #fff;
     font-size: 1rem;
+}
+
+.LoginComponent-button:hover {
+    background-color: #fff;
+    color: #3751FE;
+    border: 1px solid #3751FE;
 }
 
 .LoginComponent-link {
@@ -120,16 +152,22 @@
     font-size: 1rem;
 }
 
-.login-seven {
+.LoginComponent-link:hover {
+    background-color: #3751FE;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.login-two {
     width: 100%;
 }
 
-.login-seven-in {
+.login-two-in {
     width: 100%;
-    padding: 6rem 0rem 0rem 0rem;
+    padding: 4rem 0rem 0rem 0rem;
 }
 
-.login-seven-one {
+.login-two-one {
     width: 100%;
     display: flex;
     align-items: center;
@@ -137,12 +175,12 @@
     gap: 2rem;
 }
 
-.login-seven-one a {
+.login-two-one a {
     color: #3751FE;
     font-weight: 600;
 }
 
-.login-seven-two {
+.login-two-two {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -151,7 +189,7 @@
     padding: .5rem 0rem;
 }
 
-.login-seven-two p {
+.login-two-two p {
     font-size: 1rem;
     color: #000000;
     font-weight: 500;
@@ -159,4 +197,41 @@
     align-items: center;
     justify-content: center;
     gap: .5rem;
+}
+
+.password-input-container {
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-input-container input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #00000033;
+    border-radius: 1px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.password-input-container input:focus {
+    outline: none;
+    border-left: 4px solid #3751FE;
+}
+
+.password-toggle-btn {
+    position: absolute;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #00000099;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.password-toggle-btn:hover {
+    color: #3751FE;
 }
