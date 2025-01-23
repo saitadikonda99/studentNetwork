@@ -1,0 +1,162 @@
+
+.LoginComponent {
+    width: 100%;
+    height: 100vh;
+}
+
+.LoginComponent-in {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-one {
+    width: 100%;
+    padding: 6rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-one h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #3751FE;
+}
+
+.login-one span {
+    font-size: 4rem;
+    color: #000;
+    padding: .4rem .5rem;
+}
+
+.login-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-two p {
+    font-size: 1.4rem;
+    color: #00000099;
+}
+
+.login-three {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.login-three input {
+    width: 60%;
+    padding: 1rem;
+    border: 1px solid #00000033;
+    border-radius: 1px;
+}
+
+.login-four {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.login-four input {
+    width: 60%;
+    padding: 1rem;
+    border: 1px solid #00000033;
+    border-radius: 1px;
+}
+
+.login-five {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-five a {
+    width: 60%;
+}
+
+
+.login-six {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.login-six-in {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.LoginComponent-button {
+    padding: .5rem 1.4rem;
+    border: none;
+    border-radius: 1px;
+    background-color: #3751FE;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.LoginComponent-link {
+    padding: .5rem 1.4rem;
+    border: none;
+    border-radius: 1px;
+    border: 1px solid #3751FE;
+    color: #3751FE;
+    font-size: 1rem;
+}
+
+.login-seven {
+    width: 100%;
+}
+
+.login-seven-in {
+    width: 100%;
+    padding: 6rem 0rem 0rem 0rem;
+}
+
+.login-seven-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.login-seven-one a {
+    color: #3751FE;
+    font-weight: 600;
+}
+
+.login-seven-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0rem;
+}
+
+.login-seven-two p {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
