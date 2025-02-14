@@ -1,0 +1,243 @@
+
+
+.LoginComponent {
+    width: 100%;
+}
+
+.LoginComponent-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-one {
+    width: 60%;
+    height: 100vh;
+}
+
+.login-one-in {
+    width: 90%;
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+}
+
+.login-one-in-one {
+    width: 72%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-bx {
+    width: 100%;
+    height: 30%;
+
+}
+
+.login-bx-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.login-bx-two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.login-bx-three {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.login-box-one {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(73, 63, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lb-one {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(73, 63, 255);
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lb-one img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+
+.login-box-two {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(181, 289, 133);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lb-two {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(181, 289, 133);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lb-two img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.login-box-three {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(73, 63, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lb-three {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(73, 63, 255);
+}
+
+.lb-three img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.login-box-four {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(181, 289, 133);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lb-four {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.lb-four img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.login-box-one-hover {
+    width: 50%;
+    height: 100%;
+}
+
+.login-box-four-hover {
+    width: 50%;
+    height: 100%;
+}
+
+.login-two {    
+    width: 40%;
+    height: 100vh;
+}
+
+.login-two-in {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-two-one {
+    width: 100%;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.login-two-two {
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.login-two-two input {
+    width: 60%;
+    padding: .8rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.login-two-three {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.login-two-three input {
+    width: 60%;
+    padding: .8rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.login-two-four {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.login-two-four a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-two-five {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.login-two-five button {
+    width: 60%;
+    padding: .8rem;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.login-two-six {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.login-two-six p {
+    text-decoration: none;
+    color: black;
+}
+
+.login-two-six a {
+    text-decoration: none;
+    color: blue;
+}

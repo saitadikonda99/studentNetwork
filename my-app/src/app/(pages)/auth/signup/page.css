@@ -1,0 +1,276 @@
+.SignupComponent {
+    width: 100%;
+}
+
+.SignupComponent-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-one {
+    width: 60%;
+    height: 100vh;
+}
+
+.signup-one-in {
+    width: 90%;
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+}
+
+.signup-one-in-one {
+    width: 72%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.signup-bx {
+    width: 100%;
+    height: 30%;
+}
+
+.signup-bx-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.signup-bx-two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.signup-bx-three {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.signup-box-one, .signup-box-two, .signup-box-three, .signup-box-four {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sb-one, .sb-two, .sb-three, .sb-four {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    border: none;
+}
+
+.signup-box-one, .sb-one {
+    background-color: rgb(73, 63, 255);
+}
+
+.signup-box-two, .sb-two {
+    background-color: rgb(181, 289, 133);
+}
+
+.signup-box-three, .sb-three {
+    background-color: rgb(73, 63, 255);
+}
+
+.signup-box-four, .sb-four {
+    background-color: rgb(181, 289, 133);
+}
+
+.signup-box-one img, .sb-one img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.signup-box-two img, .sb-two img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.signup-box-three img, .sb-three img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.signup-box-four img, .sb-four img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.signup-box-one:hover, .signup-box-two:hover, 
+.signup-box-three:hover, .signup-box-four:hover {
+    border-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.info-popup {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.7) 60%,
+        transparent 100%
+    );
+    padding: 2rem 1.5rem;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0;
+    border-radius: 18px;
+}
+
+.sb-one:hover .info-popup,
+.sb-two:hover .info-popup,
+.sb-three:hover .info-popup,
+.sb-four:hover .info-popup {
+    bottom: 0;
+    opacity: 1;
+}
+
+.info-popup h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+    transform: translateY(20px);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.info-popup p {
+    margin: 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    transform: translateY(20px);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.sb-one:hover .info-popup h3,
+.sb-two:hover .info-popup h3,
+.sb-three:hover .info-popup h3,
+.sb-four:hover .info-popup h3,
+.sb-one:hover .info-popup p,
+.sb-two:hover .info-popup p,
+.sb-three:hover .info-popup p,
+.sb-four:hover .info-popup p {
+    transform: translateY(0);
+}
+
+/* Right side form styles */
+.signup-two {
+    width: 40%;
+    height: 100vh;
+}
+
+.signup-two-in {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-two-one {
+    width: 100%;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.signup-two-two {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.signup-two-three, .signup-two-four, .signup-two-five, 
+.signup-two-six, .signup-two-seven {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.signup-two-three input, .signup-two-four input, 
+.signup-two-five input, .signup-two-six input, 
+.signup-two-seven input {
+    width: 60%;
+    padding: .8rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.signup-two-eight {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.signup-two-eight button {
+    width: 60%;
+    padding: .8rem;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.signup-two-nine {
+    width: 100%;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.signup-two-nine p {
+    text-decoration: none;
+    color: black;
+}
+
+.signup-two-nine a {
+    text-decoration: none;
+    color: blue;
+}
+
+.signup-error {
+    width: 100%;
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+
+.signup-error p {
+    color: red;
+    font-size: 0.8rem;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
