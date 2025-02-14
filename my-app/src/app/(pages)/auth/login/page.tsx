@@ -89,7 +89,7 @@ const page = () => {
                             <button onClick={handleSubmit}>Login</button>
                         </div>
                         <div className="login-two-six">
-                            <p>Don't have an account? <Link href="/auth/signup">Sign up</Link></p>
+                            <p>Don&apos;t have an account? <Link href="/auth/signup">Sign up</Link></p>
                         </div>
                     </div>
                 </div>
